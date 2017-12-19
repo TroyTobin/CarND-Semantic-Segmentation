@@ -43,14 +43,14 @@ The effect is,
 Running several different training parameters the following was found.
  - The best optimizer out of (Adam, Adagrad, Adadelta, GradientDescent, Momentum) was `Momentum`
  - The best training parameters were as follows,
-   - Keep rate `0.5`
+   - Keep rate `0.75`
    - Learning rate `0.0005 `
    - Momentum `0.9`
    - Batch size `3`
    - Epochs `20`
    
    
-![alt text](https://github.com/TroyTobin/CarND-Semantic-Segmentation/blob/master/loss_vs_epoch_Momentum_kr0.5_lr0.0005.png "Momentum Loss")
+![alt text](https://github.com/TroyTobin/CarND-Semantic-Segmentation/blob/master/loss_vs_epoch_0.750000_0.000500.png "Momentum Loss")
 ![alt text](https://github.com/TroyTobin/CarND-Semantic-Segmentation/blob/master/um_000017.png "Momentum output")
 
 
