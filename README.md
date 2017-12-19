@@ -51,7 +51,7 @@ Running several different training parameters the following was found.
    
    
 ![alt text](https://github.com/TroyTobin/CarND-Semantic-Segmentation/blob/master/loss_vs_epoch_0.750000_0.000500.png "Momentum Loss")
-![alt text](https://github.com/TroyTobin/CarND-Semantic-Segmentation/blob/master/um_000017.png "Momentum output")
+![alt text](https://github.com/TroyTobin/CarND-Semantic-Segmentation/blob/master/um_000017a.png "Momentum output")
 
 
 #### Running the network
