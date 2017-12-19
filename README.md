@@ -43,12 +43,16 @@ The effect is,
 Running several different training parameters the following was found.
  - The best optimizer out of (Adam, Adagrad, Adadelta, GradientDescent, Momentum) was `Momentum`
  - The best training parameters were as follows,
-   - Keep rate ` `
-   - Learning rate ` `
+   - Keep rate `0.5`
+   - Learning rate `0.0005 `
    - Momentum `0.9`
    - Batch size `3`
    - Epochs `20`
    
+   
+![alt text](https://github.com/TroyTobin/CarND-Semantic-Segmentation/blob/master/loss_vs_epoch_Momentum_kr0.5_lr0.0005.png "Momentum Loss")
+![alt text](https://github.com/TroyTobin/CarND-Semantic-Segmentation/blob/master/um_000017.png "Momentum output")
+
 
 #### Running the network
 The program is able to run semantic segmentation over either a single image, or over a video file.
