@@ -60,7 +60,7 @@ To run, the user must specify the following, optimizer, model file, input image/
 
 For example,
 ```
-python main.py --optimizer Momentum --mode classify --video data\project.mp4 --out_file project_processed_momenum_final.mp4 --model_file vgg_seg_model_20_3_0.750000_0.000500_Momentum
+python main.py --optimizer Momentum --mode classify --video data\videos\project_video.mp4 --out_file project_processed_momenum_final.mp4 --model_file vgg_seg_model_20_3_0.750000_0.000500_Momentum
 ```
 
 This produced the following output video showing the performance of the network.
