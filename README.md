@@ -65,9 +65,7 @@ python main.py --optimizer Momentum --mode classify --video data\videos\project_
 
 This produced the following output video showing the performance of the network.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=j52v4yJ3NKE
-" target="_blank"><img src="http://img.youtube.com/vi/j52v4yJ3NKE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+[![YouTube](http://img.youtube.com/vi/j52v4yJ3NKE/0.jpg)](https://www.youtube.com/watch?v=j52v4yJ3NKE)
 
 ### Setup
 ##### Frameworks and Packages
