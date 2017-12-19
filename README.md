@@ -58,13 +58,16 @@ Running several different training parameters the following was found.
 The program is able to run semantic segmentation over either a single image, or over a video file.
 To run, the user must specify the following, optimizer, model file, input image/video, output image/video
 
-For example,
+For example running on the video used for the advanced lane finding project,
 ```
 python main.py --optimizer Momentum --mode classify --video data\videos\project_video.mp4 --out_file project_processed_momenum_final.mp4 --model_file vgg_seg_model_20_3_0.750000_0.000500_Momentum
 ```
 
 This produced the following output video showing the performance of the network.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=j52v4yJ3NKE
+" target="_blank"><img src="http://img.youtube.com/vi/j52v4yJ3NKE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ### Setup
 ##### Frameworks and Packages
