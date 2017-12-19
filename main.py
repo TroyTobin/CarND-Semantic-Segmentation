@@ -171,7 +171,8 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
                                                                       keep_prob: train_nn.kp, 
                                                                       learning_rate: train_nn.lr})
             epoch_loss += res[1]
-            final_loss = res[1]
+
+        final_loss = epoch_loss
         print ("Epoch %d loss: %f" % (epoch, epoch_loss))
         losses.append(epoch_loss)
 
@@ -233,7 +234,7 @@ def processing(sess, model_file, mode, epochs, batch_size, kr, optimizer, lr, in
     config = []
     if (mode == Mode.TRAIN):
         sess.run(tf.global_variables_initializer())
-        train_nn.kr = kr
+        train_nn.kp = kr
         train_nn.lr = lr
         final_loss = train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_loss, input_, correct_label, keep, learning_rate)
         config = [epochs, batch_size, kr, lr, optimizer]
